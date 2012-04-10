@@ -1,0 +1,9 @@
+#[ link(name = "myapp",
+        vers = "1.0",
+        uuid = "bcb6830a-9b96-45af-aa54-674800433d3c")];
+
+#[crate_type = "bin"];
+        
+#[path = "amod.rs"]
+mod amod;
+
